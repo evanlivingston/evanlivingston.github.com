@@ -10,3 +10,13 @@ initial: e
 url: http://evan-livingston.com
 github: evanlivingston
 gravatar_url: http://gravatar.com/avatar/6f63cde8b16b035280ca615f621a6c8c
+
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: vim
+git:
+  branch: master
