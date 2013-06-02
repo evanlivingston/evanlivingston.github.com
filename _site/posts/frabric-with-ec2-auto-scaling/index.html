@@ -37,7 +37,9 @@
       <ul>
         <li><a href="https://github.com/evanlivingston">github</a></li>
         <li><a href="mailto:evanlivingston@gmail.com">mail</a></li>
-        <li><a href="/posts.html">thoughts</a></li>
+        <!-- 
+        <li><a href="/posts.html">thoughts</a></li> 
+        -->
         <li><a href="/colophon.html">colophon</a></li>
         <li><a href="/socialmedia.html">social media</a></li>
       </ul>
@@ -53,7 +55,18 @@
     June  1, 2013
   </section>
 
-  <p>I recently discovered <a href='http://docs.fabfile.org/'>Fabric</a> for managing SSH</p>
+  <p>I recently discovered <a href='http://docs.fabfile.org/'>Fabric</a> which faciliates remote server management via SSH. I wanted to incorporate Fabric into an existing EC2 infrastructure which already has a handful of auto scaling groups in place.</p>
+
+<p>There are already a few projects out there which extend Fabric functionality to EC2. Namely <a href='https://awsfabrictasks.readthedocs.org/en/latest/'>awsfabricstasks</a> and <a href='https://github.com/garethr/cloth'>Cloth</a>. Both of these tools are dependent on name tags of the instances you with to manage.</p>
+
+<p>First lets <a href='http://docs.fabfile.org/en/latest/installation.html'>install Fabric</a>: <pre>
+$ pip install fabric
+</pre></p>
+
+<p>Fabric allows us to define the list of instances on which we want to execute a task. We can also define a list of instances to exclude from the task execution.</p>
+<pre>
+here is some code $ok cool
+</pre>
 
 </section>
 
