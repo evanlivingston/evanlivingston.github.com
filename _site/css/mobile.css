@@ -1,12 +1,16 @@
 .sidebar {
+  height: autoautoautoautoautoautoautoautoautoauto;
   position: inherit;
   width: inherit;
   margin: 0;
-  padding: 25px; }
-  .sidebar img {
-    display: none; }
-  .sidebar .name {
-    display: inline; }
+  padding: 25px; 
+}
+.sidebar img {
+  display: none; 
+}
+.sidebar .name {
+  display: inline; 
+}
     .sidebar .name #fname, .sidebar .name #lname {
       font-size: 25px; }
   .sidebar .meta {
@@ -21,10 +25,40 @@
       font-size: 16px;
       margin: 0 20px 0 0;
       padding: 5px 10px; }
+.sidebar .sections a {
+    text-align: center;
+    text-align: left;
+    border-bottom: 1px dotted #B0B0B0;
+    font-weight: 300;
+}
+
+.sidebar .name {
+    top: 16px;
+    left: 56px;
+}
+
+.sidebar #initial {
+    position: relative;
+    font-size: 40px;
+    top: -10px;
+    left: 7px;
+}
 
 .content {
   margin: 0;
   padding: 5px 25px;
-  width: inherit; }
-  .content h1 {
-    margin: 0 0 5px 0; }
+  width: inherit; 
+}
+.content h1 {
+ margin: 0 0 5px 0; 
+}
+
+.name {
+    font-size: 40px;
+    top: 15px;
+    left: 55px;
+    position: absolute;
+}
+.image {
+    background-position: center 40%;
+}
