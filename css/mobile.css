@@ -1,9 +1,9 @@
 .sidebar {
-  height: autoautoautoautoautoautoautoautoautoauto;
+  height: auto;
   position: inherit;
   width: inherit;
   margin: 0;
-  padding: 25px; 
+  padding: 25px 0px 25px 0px;
 }
 .sidebar img {
   display: none; 
@@ -29,7 +29,8 @@
     text-align: center;
     text-align: left;
     border-bottom: 1px dotted #B0B0B0;
-    font-weight: 300;
+    font-weight: 500;
+    padding: 3%;
 }
 
 .sidebar .name {
@@ -41,7 +42,7 @@
     position: relative;
     font-size: 40px;
     top: -10px;
-    left: 7px;
+    left: 30px;
 }
 
 .content {
