@@ -196,7 +196,8 @@ background-size: 500px auto;
     .content .listing li span {
       float: right; }
     .content .listing a {
-      text-decoration: none; }
+        font-size: 20px;
+        text-decoration: none; }
       .content .listing a:hover {
         text-decoration: underline; }
   .content .meta {
