@@ -1,6 +1,6 @@
 #markdown: rdiscount
 #pygments: true
-permalink: /posts/:title
+permalink: "/:title"
 #rdiscount:
 #  extensions: [smart]
 
@@ -14,6 +14,7 @@ github: evanlivingston
 post:
   template: _post.txt
   extension: md
+  permalink: /thoughts/:title
 page:
   template: _page.txt
   extension: md

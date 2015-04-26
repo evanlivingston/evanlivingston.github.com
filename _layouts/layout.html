@@ -28,7 +28,7 @@
 
 <body>
     <header></header>
-  <section class="sidebar">
+    <section class="sidebar">
         <a href="/">
             <span id="initial">{{ site.initial }}</span>
             <span class="name">{{ site.name_part }}</span>
@@ -36,12 +36,24 @@
 
     <section class="sections">
       <ul>
+        {% for node in site.pages reversed %}
+            {% if node.title != 'index' %}
+                {% if page.url == node.url %}
+                <li class="active"><a href="../{{node.permalink}}" class="active">{{node.title}}</a></li>
+                {% else %}
+                <li><a href="../{{node.permalink}}">{{node.title}}</a></li>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+
+          <!---
         <li><a href="https://github.com/evanlivingston">github</a></li>
         <li><a href="/contact.html">contact</a></li>
         <li><a href="/posts.html">thoughts</a></li> 
         <li><a href="/food.html">food</a></li>
         <li><a href="/socialmedia.html">social media</a></li>
         <li><a href="/colophon.html">colophon</a></li>
+          -->
       </ul>
     </section>
   </section>

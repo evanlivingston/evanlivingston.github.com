@@ -44,12 +44,17 @@ a {
       color: #227ce8; }
   .sidebar .sections {
     margin: 0px 20px 0px 10px; }
-    .sidebar .sections a {
-      padding: 3px 0;
-      color: black;
-      font-weight: bold;
-      font-size: 12px;
-      display: block; }
+.sidebar .sections a {
+    padding: 3px 0;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    display: block; 
+}
+.sidebar .sections .active a {
+    text-decoration: underline;
+
+}
       .sidebar .sections a:hover {
         color: #227ce8; }
     .sidebar .sections ul {
