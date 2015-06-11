@@ -46,8 +46,8 @@ a {
     margin: 0px 20px 0px 10px; }
 .sidebar .sections a {
     padding: 3px 0;
-    color: black;
-    font-weight: bold;
+    color: #333;
+    font-weight: 500;
     font-size: 12px;
     display: block; 
 }
@@ -96,7 +96,9 @@ background-size: 500px auto;
   margin-bottom: 50px; }
   .content h1 {
     color: #333;
-    font-weight: 400; }
+    font-weight: 400; 
+    font-family: 'Raleway', sans-serif;
+}
   .content h1 a {
     color: #111;
     text-decoration: none; }
@@ -119,13 +121,14 @@ background-size: 500px auto;
     color: #111;
     text-decoration: none; }
   .content h1 {
-    font-size: 36px;
+    font-size: 26px;
     margin: 18px 0 5px 0; }
   .content h2 {
     font-size: 30px;
     margin-bottom: 15px; }
   .content h3 {
-    color: #777;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
     font-size: 25px;
     padding-bottom: 5px;
     margin-bottom: 10px; }
@@ -133,7 +136,10 @@ background-size: 500px auto;
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 1.2em;
-    line-height: 1.7em; }
+    font: 400 1.2rem/1.5em Lora;
+    color: #333;
+    line-height: 1.7em;
+ }
     .content p code {
       font-size: 12px;
       background-color: #eeeeee;
@@ -149,6 +155,7 @@ background-size: 500px auto;
     height: 6px;
     background-image: url("/images/hr.png");
     background-repeat: repeat-x;
+     border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     margin: 2em 3em; }
   .content li {
     margin-bottom: 10px;
@@ -229,6 +236,16 @@ background-size: 500px auto;
     font-weight: bold; }
   .content .talk-design .color .white {
     color: #fff; }
+
+.content .references p {
+    font-size: 16px;
+}
+
+.content .listing p {
+    font-size: 16px;
+    color: #555;
+    line-height: 24px;
+}
 
 ul.share-buttons{
   list-style: none;

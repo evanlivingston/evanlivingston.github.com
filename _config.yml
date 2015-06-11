@@ -1,4 +1,4 @@
-#markdown: rdiscount
+markdown: pandoc
 #pygments: true
 permalink: "/:title"
 #rdiscount:
@@ -21,3 +21,14 @@ page:
 editor: muo
 git:
   branch: master
+
+# BibTex Citation plugin
+citation:
+  citation_style: apa
+  citation_locale: en
+
+pandoc:
+  format: html5
+  extensions:
+    - smart
+    - bibliography: '/Users/evanlivingston/Desktop/GMO/GMO.bib'
