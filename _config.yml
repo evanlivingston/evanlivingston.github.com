@@ -1,4 +1,4 @@
-markdown: pandoc
+markdown: rdiscount
 #pygments: true
 permalink: "/:title"
 #rdiscount:
@@ -22,13 +22,24 @@ editor: muo
 git:
   branch: master
 
-# BibTex Citation plugin
-citation:
-  citation_style: apa
-  citation_locale: en
+gems: ['jekyll/scholar']
 
-pandoc:
-  format: html5
-  extensions:
-    - smart
-    - bibliography: '/Users/evanlivingston/Desktop/GMO/GMO.bib'
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"

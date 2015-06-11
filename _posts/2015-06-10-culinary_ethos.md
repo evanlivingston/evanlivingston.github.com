@@ -57,3 +57,5 @@ The GMO debate must necessarily move beyond a debate centered around scientific 
 
 ***  
 ### References
+
+{% bibliography %}
