@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: pandoc
 #pygments: true
 permalink: "/:title"
 #rdiscount:
@@ -7,7 +7,7 @@ permalink: "/:title"
 name: evanlivingston
 name_part: vanlivingston
 initial: e
-url: http://evan-livingston.com
+url: http://evanlivingston.net
 github: evanlivingston
 
 
@@ -22,24 +22,8 @@ editor: muo
 git:
   branch: master
 
-gems: ['jekyll/scholar']
-
-scholar:
-  style: apa
-  locale: en
-
-  sort_by: none
-  order: ascending
-
-  source: ./_bibliography
-  bibliography: references.bib
-  bibliography_template: "{{reference}}"
-
-  replace_strings: true
-  join_strings:    true
-
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:   Details
-
-  query: "@*"
+pandoc:
+  format: html
+  extensions:
+    - bibliography: '_bibliography/references.bib'
+    - smart

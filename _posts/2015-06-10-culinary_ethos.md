@@ -5,7 +5,7 @@ bibliography: /Users/evanlivingston/Desktop/GMO/GMO.bib
 
 ---
 
-The fight over GMO acceptance is a blundering debate which has been brought into the forefront of news as a result of growing consumer awareness and concern regarding our food supply. The "informed" consumer is led to believe that genetically modified foods are something to be avoided. It's an assertion made both in marketing and food journalism. There exist different argumentative systems which contextualize the GMO debate and often fail to address alternative frameworks of understanding. The two main sides of the GMO debate can be interpreted as representing more latent ideologies. The anti-gmo framework most often relies on appeals to emotions, lacks strong scientific evidence and fail to acknowledge the potential of GMOs to address a number of agricultural challenges. Alternatively, pro-GMO frameworks fail to identify the connection of GMOs to an industrial supply chain which is dominated by interest on wealth accumulation and continues to be dismissive of both human and environmental health. I argue that the GMO debate is part of a larger but obscured argument concerning our culinary ethπos and cultural ideals. 
+The fight over GMO acceptance is a blundering debate which has been brought into the forefront of news as a result of growing consumer awareness and concern regarding our food supply. The "informed" consumer is led to believe that genetically modified foods are something to be avoided. It's an assertion made both in marketing and food journalism. There exist different argumentative systems which contextualize the GMO debate and often fail to address alternative frameworks of understanding. The two main sides of the GMO debate can be interpreted as representing more latent ideologies. The anti-gmo framework most often relies on appeals to emotions, lacks strong scientific evidence and fail to acknowledge the potential of GMOs to address a number of agricultural challenges. Alternatively, pro-GMO frameworks fail to identify the connection of GMOs to an industrial supply chain which is dominated by interest on wealth accumulation and continues to be dismissive of both human and environmental health. I argue that the GMO debate is part of a larger but obscured argument concerning our culinary ethos and cultural ideals. 
 
 ### A bit of history and a dose of science
 
@@ -58,4 +58,4 @@ The GMO debate must necessarily move beyond a debate centered around scientific 
 ***  
 ### References
 
-{% bibliography %}
+

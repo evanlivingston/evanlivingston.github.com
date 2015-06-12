@@ -248,11 +248,24 @@ background-size: 500px auto;
 }
 
 ul.share-buttons{
-  list-style: none;
-  padding: 0;
-  text-align: center;
-}
+    list-style: outside none none;
+    text-align: center;
+    background: #E3E3E3 none repeat scroll 0% 0%;
+    color: #2C2C2C;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin: 0% 20% 50px 25%;
 
+}
+ul.share-buttons a {
+    font-weight: 700;
+    color: #333;
+    margin-left: 10px;
+    text-decoration: none;
+}
+ul.share-buttons a:hover {
+    border-bottom: 1px dashed #333;
+    }
 ul.share-buttons li{
   display: inline;
 }
